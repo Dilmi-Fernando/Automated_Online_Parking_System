@@ -12,21 +12,21 @@
 /*header*/
 .header{
     width: 200px;
-    height: 100vh;
+    height: 700vh;
     background: #1C120B;
-    position: relative;
+    position: sticky;
     z-index: 2;    
 }
 
 .side-nav{
     width: 200px;
-    height: 100vh;
+    height: 700vh;
     background: #3A3628;
-    position: relative;
+    position: sticky;
     top: 0;
     bottom: 0;
     left: 0;
-    overflow: hidden;
+    overflow: auto;
     transition: width o.2s linear;
     box-shadow: 0px 5px 10px #BDA969;
     
@@ -202,7 +202,55 @@ button{
 
 
 
+.facilities{
+   margin: 15% 0% 0% 8%;
+}
+
+.fac-images{
+    display: flex;
+}
+
+.fac-images img{
+   
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    position:relative;
+}
+
 /*BODY END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Footer*/
 
