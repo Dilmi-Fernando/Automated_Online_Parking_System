@@ -50,7 +50,9 @@
 
     </div>
 
-<!--Home Page-->
+<!--Landing Page-->
+
+<!----------------------------------------------Welcome Section---------------------------------------------->
 <div class="landing-container">
     <section class="home" id="home">
         <div class="head-container">
@@ -84,23 +86,28 @@
             
     </section>
 
+<!----------------------------------------------Facilities Section---------------------------------------------->
+
     <section class="facilities" id="facilities">
         <div class="facs">
-            
-            <div class="fac-images">
-                <img src="/f1.jpg" class="fac-box" onmouseover="">
-                <img src="/f2.jpg" class="fac-box" onmouseover="">
-                <img src="/f3.jpg" class="fac-box" onmouseover="">
-                <img src="/f4.jpg" class="fac-box" onmouseover="">
-            </div>
-    
-            <div class="fac-texts">
+
+            <h2>Facilities We Offer</h2>
+
+            <div class="fac-box">
+                <ul class="fac-line">
+                    <li><img src="/f1.jpg" class="fac-box" ><br>Online Payment</li>
+                    <li><img src="/f2.jpg" class="fac-box" ><br>Different Floors for Accesibility</li>
+                    <li><img src="/f3.jpg" class="fac-box" ><br>Advance Boking</li>
+                    <li><img src="/f4.jpg" class="fac-box" ><br>Assured Security</li>
+                </ul>
             </div>
     
         </div>
     </section>
 </div>
     </div>
+
+
 <!--Footer-->
 
     <footer class="footer-distributed">
@@ -154,6 +161,18 @@
         </div>
 
     </footer>
+
+    <script>
+        function img(anything) {
+          document.querySelector('.slide').src = anything;
+        }
+    
+        function change(change) {
+          const line = document.querySelector('.image');
+          line.style.background = change;
+          
+        }
+      </script>
 </body>
 
 </html>
