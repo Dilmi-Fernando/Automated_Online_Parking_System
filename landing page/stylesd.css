@@ -9,6 +9,23 @@
     font-size: 15px;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5%;
+    color: #F4A424;
+    
+}
+
+li{
+    color: #BDA969;
+}
+
+li button{
+    color: #FFFFAA;
+}
+
 /*header*/
 .header{
     width: 200px;
@@ -112,6 +129,11 @@ a:hover{
 
 /*BODY*/
 
+body{
+    background-color: #1C120B;
+}
+
+
 .container-body{
     display: flex;
 }
@@ -207,15 +229,11 @@ button{
    position: relative;
 }
 
-h2{
-    font-size: 40px;
-    font-weight: 200;
-    text-align: center;
-}
 
 
 .fac-box{
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .fac-line{
@@ -244,6 +262,44 @@ h2{
 .fac-line li:hover img{
     transform: scale(1.1);
 }
+
+
+.accordion{
+    margin: 5%;
+    list-style-type:circle; /* Change the bullet to a circle */
+ }
+
+ .accordion li{
+    margin: 30px;
+ }
+
+.accordion-content{
+    display: none;
+    padding: 10px 10px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 249, 170, 0.774);
+    outline: none;
+    border-radius: 25px;
+    color: #1C120B;
+    margin: 5px 10% 5px 2%;
+    
+}
+
+.accordion-content p{
+    padding: 5px    ;
+}
+
+.accordion-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-weight:550;
+}
+
+ .accordion-content.open{
+    display: block;
+  }
     
 /*BODY END*/
 

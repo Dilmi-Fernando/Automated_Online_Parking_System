@@ -104,8 +104,43 @@
     
         </div>
     </section>
+    <!----------------------------------------------FAQ Section---------------------------------------------->
+<section class="faq" id="faq">
+
+    <h2>Frequantly Asked Questions</h2>
+
+    <ul class="accordion">
+        <li>
+            <button class="accordion-btn">Can I reserve a parking spot in advance?</button>
+            <div class="accordion-content">
+                <p>Yes, our system allows you to reserve a parking spot in advance, giving you peace of mind knowing that your spot will be available when you arrive.</p>
+            </div>
+        </li>
+        <li>
+            <button class="accordion-btn">What information do I need to provide to make a parking reservation?</button>
+            <div class="accordion-content">
+                <p>To make a parking reservation, you will need to provide details such as the desired date and time of your arrival, the duration of your stay, and your contact information.</p>
+            </div>
+        </li>
+        <li>
+            <button class="accordion-btn">Is there a fee for using the automated parking reservation system?</button>
+            <div class="accordion-content">
+                <p>Yes, The fee may vary depending on factors such as the location, duration of the reservation,</p>
+            </div>
+        </li>
+        <li>
+            <button class="accordion-btn">How do I pay for the parking reservation?</button>
+            <div class="accordion-content">
+                <p>Payment for your parking reservation can be made securely through our online platforms</p>
+            </div>
+        </li>
+        
+    </ul>
+
+</section>
 </div>
     </div>
+
 
 
 <!--Footer-->
@@ -162,6 +197,8 @@
 
     </footer>
 
+        <!----------------------------------------------SCRIPTS---------------------------------------------->
+
     <script>
         function img(anything) {
           document.querySelector('.slide').src = anything;
@@ -172,6 +209,28 @@
           line.style.background = change;
           
         }
+      </script>
+
+      <script>
+        const accordionBtns = document.querySelectorAll('.accordion-btn');
+
+        accordionBtns.forEach(function (btn) {
+            
+            btn.addEventListener('click', function() {
+                const listItem = this.parentNode;
+                
+                const openItems = document.querySelectorAll('.accordion-content.open');
+                
+                openItems.forEach(function (item) {
+                     if (item.parentNode !== listItem) {
+                         item.classList.remove('open');
+                          }
+                        });
+            const content = this.nextElementSibling;
+            content.classList.toggle('open');
+        });
+
+        });
       </script>
 </body>
 
