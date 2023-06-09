@@ -1,0 +1,76 @@
+:root {
+    /* color related */
+    --clr-black-500: rgb(13, 13, 13);
+    --clr-black-400: rgb(26, 1, 1);
+    --clr-black-300: rgb(39, 46, 37);
+  
+    --clr-green-700: rgb(0, 88, 62);
+    --clr-white-600: rgb(255, 255, 255);
+  
+    /* font related*/
+    --ff-primary: 'Nunito', sans-serif;
+  
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 500;
+    --fw-bold: 600;
+    --fw-extbold: 700;
+  
+    --fs-14: 0.875rem;
+    --fs-15: 0.9375rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-22: 1.375rem;
+    --fs-24: 1.5rem;
+    --fs-36: 2rem;
+    --fs-40: 2.5rem;
+    --fs-56: 3.5rem;
+    --fs-82: 5.125rem;
+  
+    --fs-body: var(--fs-18);
+    --fs-nav: var(--fs-18);
+    --fs-footer: var(--fs-15);
+    --fs-exlrg-txt: var(--fs-82);
+    --fs-h1: var(--fs-56);
+    --fs-h2: var(--fs-40);
+    --fs-h3: var(--fs-36);
+    --fs-button: var(--fs-24);
+   
+  }
+  
+
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+ 
+ 
+  
+  /* Set core body defaults */
+ 
+  
+  /* buttons default */
+  
+  button {
+    cursor: pointer;
+  }
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+  
