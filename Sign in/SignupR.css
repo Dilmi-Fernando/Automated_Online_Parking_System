@@ -1,0 +1,155 @@
+.main 
+{
+    background-color:#1C120B;
+}
+
+.h1
+{
+    color: #F4A424;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    gap: 15px;
+    flex-direction: column;
+    
+ }
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.inputBox_1
+{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1px;
+    color: #ffffAA;
+}
+
+.inputBox_1 input
+{
+    margin-top: 5px;
+}
+
+.checkBox
+{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 50px;
+}
