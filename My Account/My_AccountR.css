@@ -1,0 +1,74 @@
+.main 
+{
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 18px;
+    background-color:#1C120B;
+    box-shadow: 0 0 10px rgba(244, 164, 36, 0.3);
+}
+
+.h1
+{
+    color: #F4A424;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.h3_1
+{
+    margin-right: 350px;
+    width: 200px;
+}
+
+.h3_2
+{
+    margin-right: 320px;
+    width: 230px;
+}
+
+h5
+{
+    margin-right: 290px;
+    margin-top: 8px;
+    margin-bottom: -16px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1vh;
+    gap: 2rem;
+    flex-direction: column;
+    color: #ffffAA;
+    font-size: 20px;
+}
+
+form
+{
+    margin-left: 1.5rem;
+}
+
+input[type=text],input[type=password]
+{
+    padding: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}

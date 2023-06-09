@@ -1,0 +1,103 @@
+.main 
+{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 18px;
+    background-color:#1C120B;
+    box-shadow: 0 0 10px rgba(244, 164, 36, 0.3);
+}
+
+.h1
+{
+    color: #F4A424;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 75vh;
+    gap: 2rem;
+    flex-direction: column;
+    color: #ffffAA;
+    font-size: 20px;
+}
+
+form
+{
+    margin-left: 1.5rem;
+}
+
+input[type=text],input[type=password]
+{
+    padding: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+input[type=checkbox]
+{
+    margin-top: 2rem;
+}
+
+label
+{
+    font-size: .8rem;
+}
+
+.checkBox
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+
+.btn
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: #F4A424;
+    width: 124px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn:focus, .btn:active
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);        
+}  
+
+#sighnup-btn{
+    background: red;
+    margin-left: 160px;
+    margin-top: 250px;  
+}
