@@ -1,75 +1,67 @@
-
-.body{
+.body1{
     font-family: arial;
     background-color: #1C120B;
     color:#ffffAA;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    min-height: 75vh;
     font-size: 20px;
-    gap: 25px;
+    /*min-height: 75vh;
+    border: 7px solid #000;
+    padding: 1px;*/
+
     border-style: solid ;
     border-color: #F4A424;
-
-   
     
+
+
 }
 
-h1{
+h2{
     font-size: 25px;
     color: #F4A424;
     margin-left: 35rem;
     margin-bottom: 20px;
     
-    
-    
-    
 }
-
-.bf{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    
-    min-height: 100vh;
-    overflow-y: auto;
-    padding: 20px 15px;
-}
-
-
-
-  
 
 form{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin-left: 15rem;
-    margin-right: 12rem;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 25rem;
     border: 1px solid white;
     border-radius: 20px;
-    justify-content: center;
+    padding: 20px;
     margin-bottom: 40px;
     margin-top: 40px;
+    
+
+
+    
+    
+    
 }
+
+
+
+
 
 input{
     width: 400px;
 }
 
-.column-3{
-    width: 520px;
-   
-}
-
-button{
+.b1{
+    /*margin-bottom: 20rem;*/
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: bold;
     background: #F4A424;
     width: 124px;
-    margin-left: 25rem;
+    margin-left: 9rem;
     padding: 10px;
     text-align: center;
     
@@ -77,11 +69,15 @@ button{
     color: #fff;
     
     cursor: pointer;
-    webkit-transition-duration: 0.2s;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 
     margin: 2rem;
     border-radius: 20px;
-    margin-left: 22rem;
+
+
+}
+
