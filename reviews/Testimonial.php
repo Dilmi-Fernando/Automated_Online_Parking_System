@@ -1,6 +1,6 @@
 <?php
 
-  //used to connect with database
+  //used to connect with databasegf
   require 'config.php';
 
   //used to check if the submit button is clicked under post conditions
@@ -48,7 +48,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>MasterSafari</title>
+  <title> Feedbacks - parKING | Never Tour Around The Block Again </title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
